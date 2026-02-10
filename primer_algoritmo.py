@@ -18,3 +18,8 @@ anioActual = 2026
 edad = anioActual - anioNacimiento
 print("Mi edad es:", edad)
 
+#calcular el area de un rectangulo
+base = 8
+altura = 4
+areaRectangulo = base * altura
+print("El area del rectangulo es:", areaRectangulo)
