@@ -31,4 +31,26 @@ nota3= 2.8
 promedio = (nota1 + nota2 + nota3) / 3
 print("El promedio de las notas es:", promedio)
 
-#
+#convertir grados Celsius a Fahrenheit
+c= 25
+f = (c * 9/5) + 32
+print(c, "grados Celsius son", f, "grados Fahrenheit")  
+
+#calcular el sueldo de un empleado 
+horasTrabajadas = 160
+valorHora = 15
+sueldo = horasTrabajadas * valorHora
+print("El sueldo del empleado es:", sueldo)
+
+#calcular el sueldo de un empleado con datos ingresados por el usuario
+nombre = input("Ingrese su nombre: ")
+cantidadHoras = float(input("Ingrese la cantidad de horas trabajadas: "))
+valorHora = float(input("Ingrese el valor por hora: "))
+sueldo = cantidadHoras * valorHora
+print("Hola", nombre + ", tu sueldo es:", sueldo)
+
+#calcular el precio final con iva
+precioSinIva = float(input("Ingrese el precio sin IVA: "))
+iva= precioSinIva * 0.19
+precioFinal = precioSinIva + iva
+print("El precio final con IVA es:", precioFinal)
