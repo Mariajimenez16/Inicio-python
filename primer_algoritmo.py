@@ -12,3 +12,9 @@ numero4 = 5
 multiplicacion = numero3 * numero4
 print("la multiplicacion de", numero3, "y", numero4, "es:", multiplicacion)
 
+#calcular mi edad
+anioNacimiento = 2006
+anioActual = 2026
+edad = anioActual - anioNacimiento
+print("Mi edad es:", edad)
+
