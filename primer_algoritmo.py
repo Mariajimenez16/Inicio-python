@@ -25,8 +25,10 @@ areaRectangulo = base * altura
 print("El area del rectangulo es:", areaRectangulo)
 
 #calcular promedio de tres notas
-nota1= 43
-nota2=38
-nota3= 28
+nota1= 4.3
+nota2=3.8
+nota3= 2.8
 promedio = (nota1 + nota2 + nota3) / 3
 print("El promedio de las notas es:", promedio)
+
+#
