@@ -66,3 +66,33 @@ if contador > 0:
     print("Promedio:", promedio)
 else:
     print("No se ingresaron números")
+    
+    
+#ej 6: notas de 20 estudiantes 
+suma = 0
+mayor = 0
+menor = 5
+
+for i in range(20):
+    nota = float(input("Ingrese nota: "))
+    suma = suma + nota
+    
+    if nota > mayor:
+        mayor = nota
+    if nota < menor:
+        menor = nota
+
+promedio = suma / 20
+
+print("Promedio:", promedio)
+print("Mayor:", mayor)
+print("Menor:", menor)
+
+#ejercicio 7: suma de 1 hasta n
+numero = int(input("Ingrese un número: "))
+suma = 0
+
+for i in range(1, numero + 1):
+    suma = suma + i
+
+print("La suma es:", suma)
