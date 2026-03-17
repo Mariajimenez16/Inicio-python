@@ -32,3 +32,19 @@ while opcion != "N":
         print("Programa finalizado")
     else:
         print("Opción inválida")
+        
+#ejercicio 4: promedio de notas
+suma = 0
+contador = 0
+opcion = "S"
+
+while opcion == "S":
+    nota = float(input("Ingrese una nota: "))
+    suma = suma + nota
+    contador = contador + 1
+    
+    opcion = input("¿Desea ingresar otra nota? S/N: ")
+
+promedio = suma / contador
+print("El promedio es:", promedio)        
+        
