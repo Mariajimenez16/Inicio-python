@@ -19,3 +19,16 @@ for i in range(1, numero + 1):
     resultado = resultado * i
 
 print("El factorial es:", resultado)
+
+#ejercicio 3: continuar ? 
+opcion = ""
+
+while opcion != "N":
+    opcion = input("¿Desea continuar S/N?: ")
+    
+    if opcion == "S":
+        print("Continuando...")
+    elif opcion == "N":
+        print("Programa finalizado")
+    else:
+        print("Opción inválida")
