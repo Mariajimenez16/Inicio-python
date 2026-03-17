@@ -165,3 +165,25 @@ for i in range(N):
 print("Ventas <= 10000:", contador_10k)
 print("Ventas entre 10000 y 20000:", contador_20k)
 print("Total:", total)
+
+#ejercicio 13: sueldos 
+N = int(input("¿Cuántos trabajadores?: "))
+total_salarios = 0
+
+for i in range(N):
+    nombre = input("Nombre: ")
+    horas = float(input("Horas trabajadas: "))
+    valor = float(input("Pago por hora: "))
+    
+    salario = horas * valor
+    
+    if salario <= 150:
+        salario = salario * 0.95
+    elif salario < 300:
+        salario = salario * 0.93
+    elif salario < 450:
+        salario = salario * 0.91
+    
+    total_salarios = total_salarios + salario
+
+print("Total pagado:", total_salarios)
