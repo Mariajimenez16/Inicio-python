@@ -96,3 +96,14 @@ for i in range(1, numero + 1):
     suma = suma + i
 
 print("La suma es:", suma)
+
+#ejercicio 8 : suma de negativos 
+suma_negativos = 0
+
+for i in range(10):
+    numero = int(input("Ingrese un número: "))
+    
+    if numero < 0:
+        suma_negativos = suma_negativos + numero
+
+print("Suma de negativos:", suma_negativos)
