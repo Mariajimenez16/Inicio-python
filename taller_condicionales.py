@@ -48,3 +48,21 @@ while opcion == "S":
 promedio = suma / contador
 print("El promedio es:", promedio)        
         
+#ejercicio 5: número hasta -1
+suma = 0
+contador = 0
+
+numero = int(input("Ingrese un número (-1 para salir): "))
+
+while numero != -1:
+    suma = suma + numero
+    contador = contador + 1
+    numero = int(input("Ingrese otro número (-1 para salir): "))
+
+if contador > 0:
+    promedio = suma / contador
+    print("Cantidad:", contador)
+    print("Suma:", suma)
+    print("Promedio:", promedio)
+else:
+    print("No se ingresaron números")
