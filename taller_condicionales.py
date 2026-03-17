@@ -145,3 +145,23 @@ for i in range(365):
     ahorro = ahorro * 3
 
 print("Total ahorrado en el año:", total)
+
+#ejercicio 12: ventas 
+N = int(input("¿Cuántas ventas?: "))
+
+contador_10k = 0
+contador_20k = 0
+total = 0
+
+for i in range(N):
+    venta = float(input("Ingrese valor de venta: "))
+    total = total + venta
+    
+    if venta <= 10000:
+        contador_10k = contador_10k + 1
+    elif venta > 10000 and venta < 20000:
+        contador_20k = contador_20k + 1
+
+print("Ventas <= 10000:", contador_10k)
+print("Ventas entre 10000 y 20000:", contador_20k)
+print("Total:", total)
