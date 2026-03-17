@@ -135,3 +135,13 @@ for i in range(N):
 print("Verdes:", verde)
 print("Blancos:", blanco)
 print("Rojos:", rojo)
+
+#ejercicio 11: ahorro de año 
+ahorro = 3
+total = 0
+
+for i in range(365):
+    total = total + ahorro
+    ahorro = ahorro * 3
+
+print("Total ahorrado en el año:", total)
