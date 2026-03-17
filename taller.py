@@ -1,6 +1,5 @@
 #Maria Alexandra Jiménez Suárez
 
-
 #Ejercicio 1 Área de un rectángulo
 
 base = float(input("Ingrese la base del rectángulo: "))
@@ -48,6 +47,27 @@ total = horas * valor_por_hora
 print("El total a pagar es:", total)
 
 #EJ 6 
+nombre = input("Nombre del cliente: ")
+
+sandalias = int(input("Cantidad de sandalias: "))
+tenis = int(input("Cantidad de tenis: "))
+mocasines = int(input("Cantidad de mocasines: "))
+
+sandalias= 100
+tenis= 200
+mocasines= 300
+
+total = (sandalias * sandalias) + (tenis * tenis) + (mocasines * mocasines)
+descuento = total * 0.08
+total_con_descuento = total - descuento
+iva = total_con_descuento * 0.19
+venta_final = total_con_descuento + iva
+
+print("Cliente:", nombre)
+print("Total sin descuento:", total)
+print("Descuento:", descuento)
+print("Total con descuento:", total_con_descuento)
+print("Venta final con IVA:", venta_final)
 
 #EJ 7  Conversión de litros a galones
 
