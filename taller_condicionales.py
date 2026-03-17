@@ -187,3 +187,32 @@ for i in range(N):
     total_salarios = total_salarios + salario
 
 print("Total pagado:", total_salarios)
+
+#ejercicio 14: impuesto de carros
+N = int(input("¿Cuántos autos?: "))
+
+total_general = 0
+total1 = 0
+total2 = 0
+total3 = 0
+
+for i in range(N):
+    clave = int(input("Clave (1,2,3): "))
+    valor = float(input("Valor del auto: "))
+    
+    if clave == 1:
+        impuesto = valor * 0.10
+        total1 = total1 + impuesto
+    elif clave == 2:
+        impuesto = valor * 0.07
+        total2 = total2 + impuesto
+    elif clave == 3:
+        impuesto = valor * 0.05
+        total3 = total3 + impuesto
+    
+    total_general = total_general + impuesto
+
+print("Total clave 1:", total1)
+print("Total clave 2:", total2)
+print("Total clave 3:", total3)
+print("Total general:", total_general)
