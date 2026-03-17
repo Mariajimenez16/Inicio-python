@@ -107,3 +107,10 @@ for i in range(10):
         suma_negativos = suma_negativos + numero
 
 print("Suma de negativos:", suma_negativos)
+
+#ejercicio 9: numeros del 1 al 100
+numero = 100
+
+while numero >= 1:
+    print(numero)
+    numero = numero - 1
