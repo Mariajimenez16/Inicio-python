@@ -114,3 +114,24 @@ numero = 100
 while numero >= 1:
     print(numero)
     numero = numero - 1
+    
+#ejercicio 10: focos de colores
+N = int(input("¿Cuántos focos hay?: "))
+
+verde = 0
+blanco = 0
+rojo = 0
+
+for i in range(N):
+    color = input("Ingrese color (verde/blanco/rojo): ")
+    
+    if color == "verde":
+        verde = verde + 1
+    elif color == "blanco":
+        blanco = blanco + 1
+    elif color == "rojo":
+        rojo = rojo + 1
+
+print("Verdes:", verde)
+print("Blancos:", blanco)
+print("Rojos:", rojo)
